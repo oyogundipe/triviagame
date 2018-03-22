@@ -1,5 +1,5 @@
 body {
-    background-image: url(../Assets/images/regal.png);
+    background-image: url(assets/images/regal.png);
     background-repeat: repeat;
     margin: 0;
     padding: 0;
@@ -10,20 +10,27 @@ body {
     line-height: 15px;
     }
 
-.questions {
-    width: 400px;
+.js-questions {
+    width: 650px;
     height: 400px;
     padding: 10px;
     border: 1px dotted #c9bbc0;
     background-color: #f4f1f2;
     position: absolute;
-    margin: 0; 
-  }
+    margin: 15px 175px; 
+    }
+    
+.js-start {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #c9bbc0;
+    background-color: #f4f1f2;
+    }
 
 h1 {
     font-family: 'Rammetto One', cursive;
-    font-size: 18px;
+    font-size: 30px;
     font-style: bold;
     font-variant: normal;
-    line-height: 20px;
+    line-height: 30px;
     }

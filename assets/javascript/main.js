@@ -1,6 +1,14 @@
 
 $(document).ready(function() {
 //global variables here
+var timer = 6000;
+var correctAnswers = 0;
+var incorrectAnswers = 0;
+var numberAnswered = 0;
+
+var answers = [];
+var currentQuestion = 0;
+
 // questions info
 let questions = [
     {
@@ -50,11 +58,9 @@ let questions = [
         "answers": ["Polar Plateau", "Siberia", "Superior, Wisconsin" ,"Alaska"],
         "correctAnswer": "Polar Plateau",
     },
-
     ];
 
 let userAnswers = ["Oslo", "Lagos", "33%", "Mount Everest", "4345", "6%", "Madagascar", "Australia", "Polar Plateau"];
-
 
 //functions
 function startGame () {
@@ -63,7 +69,7 @@ function startGame () {
         $('.js-questions').append('<p>' + questions[i].question + '</p>');
         // loop thru the answers
         for (var j = 0; j < questions[i].answers.length; j++){
-            $('.js-questions').append('<input type ="radio" value="' +questions[i].ansewrs[j] + '" name="' + i + '">' + questions[i].answers[j] + + '</input>');   
+            $('.js-questions').append('<input type ="radio" value="' +questions[i].ansewrs[j] + '" name="' + i + '">' + questions[i].answers[j] + " "+ '</input>');   
         }
     $('.js-questions').append('<br><br>');
     }
@@ -75,20 +81,17 @@ function stopGame() {
     //every input that is checked, show me the value
     $('.js-questions input:checked').each(function () {
         let answerChecked = $(this).val();
-        if (answerChecked === questions[$(this).att('name')].correctAnswer) {
+        if (answerChecked === questions[$(this).att('name')].correctAnswer) {correctAnswers++;
             console.log('woohooo');
         }
         else {
-            console.log
+            stopGame ();
         }
         
     // if the value is correctin, add 1 to the score
 console.log($(this));
     });
 }
-
-//events
-
 //clicking start button, game starts
 $('.js-start').on('click', function () {
     startGame ();
