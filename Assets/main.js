@@ -4,20 +4,56 @@ $(document).ready(function() {
 // questions info
 let questions = [
     {
-     "question": "what is the capital of Norway?",
+     "question": "What is the capital of Norway?",
      "answers": ["Oslo", "Helsinki", "Paris"],
      "correctAnswer": "Oslo",
     },
-
     {
-        "question": "what is the capital of Nigeria?",
+        "question": "What is the capital of Nigeria?",
         "answers": ["Lagos", "Benin City", "Yaounde"],
         "correctAnswer": "Lagos",
     },
+    {
+        "question": "What percentage of land on earth is desert?",
+        "answers": ["33%", "25%" , "2%" , "100%"],
+        "correctAnswer": "33%",
+    },
+    {
+        "question": "Which of the following is the tallest mountain on earth?",
+        "answers": ["Mount Everest" , "K2", "Makalu" , "Lhotse"],
+        "correctAnswer": "Mount Everest",
+    },
+    {
+        "question": "WWhat is the length of the longest river on earth?",
+        "answers": ["4345" , "4258" , "2920" , "3395"],
+        "correctAnswer": "4345",
+    },
+    {
+        "question": "How much of the Earth is covered in rainforest?",
+        "answers": ["6%","12%", "45%", "75%"],
+        "correctAnswer": "6%",
+    },
 
-];
+    {
+        "question": "Which country is home to the world’s Lemur population?",
+        "answers": ["Madagascar" , "Mauritius" , "Venezuela" , "Costa Rica"],
+        "correctAnswer": "Madagascar",
+    },
+    {       
+        "question": "Where can one find the most diverse plantlife on the plant?",
+        "answers": ["Australia", "Brazil" , "China" , "Venezuela"],
+        "correctAnswer": "Australia",
+    },
 
-let userAnswers = ["Oslo", "Lagos"];
+    { 
+        "question": "Where is the coldest spot on the globe?",
+        "answers": ["Polar Plateau", "Siberia", "Superior, Wisconsin" ,"Alaska"],
+        "correctAnswer": "Polar Plateau",
+    },
+
+    ];
+
+let userAnswers = ["Oslo", "Lagos", "33%", "Mount Everest", "4345", "6%", "Madagascar", "Australia", "Polar Plateau"];
 
 
 //functions
