@@ -22,17 +22,17 @@ let questions = [
         "correctAnswer": "Lagos",
     },
     {
-        "question": "What percentage of land on earth is desert?",
+        "question": "What percentage of land on Earth is desert?",
         "answers": ["33%", "25%" , "2%" , "100%"],
         "correctAnswer": "33%",
     },
     {
-        "question": "Which of the following is the tallest mountain on earth?",
+        "question": "Which of the following is the tallest mountain on Earth?",
         "answers": ["Mount Everest" , "K2", "Makalu" , "Lhotse"],
         "correctAnswer": "Mount Everest",
     },
     {
-        "question": "WWhat is the length of the longest river on earth?",
+        "question": "WWhat is the length of the longest river on Earth?",
         "answers": ["4345" , "4258" , "2920" , "3395"],
         "correctAnswer": "4345",
     },
@@ -43,7 +43,7 @@ let questions = [
     },
 
     {
-        "question": "Which country is home to the world’s Lemur population?",
+        "question": "Which country is home to the World’s Lemur population?",
         "answers": ["Madagascar" , "Mauritius" , "Venezuela" , "Costa Rica"],
         "correctAnswer": "Madagascar",
     },
@@ -54,7 +54,7 @@ let questions = [
     },
 
     { 
-        "question": "Where is the coldest spot on the globe?",
+        "question": "Which of the following is the coldest spot on the globe?",
         "answers": ["Polar Plateau", "Siberia", "Superior, Wisconsin" ,"Alaska"],
         "correctAnswer": "Polar Plateau",
     },
