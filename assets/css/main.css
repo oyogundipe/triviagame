@@ -17,7 +17,8 @@ body {
     border: 1px dotted #c9bbc0;
     background-color: #f4f1f2;
     position: absolute;
-    margin: 15px 175px; 
+    overflow: scroll;
+    margin: 75px 175px 15px 200px; 
     }
 
 .js-start {
@@ -26,6 +27,13 @@ body {
     border: 1px solid #c9bbc0;
     background-color: #f4f1f2;
     }
+
+.js-stop {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #c9bbc0;
+    background-color: #f4f1f2;
+}
 
 .timer {
     width: 650px;

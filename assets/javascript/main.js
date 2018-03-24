@@ -69,7 +69,7 @@ function startGame () {
         $('.js-questions').append('<p>' + questions[i].question + '</p>');
         // loop thru the answers
         for (var j = 0; j < questions[i].answers.length; j++){
-            $('.js-questions').append('<input type ="radio" value="' +questions[i].ansewrs[j] + '" name="' + i + '">' + questions[i].answers[j] + " "+ '</input>');   
+            $('.js-questions').append('<input type ="radio" value="' +questions[i].answers[j] + '" name="' + i + '">' + questions[i].answers[j] + " "+ '</input>');   
         }
     $('.js-questions').append('<br><br>');
     }
